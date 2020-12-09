@@ -1,0 +1,29 @@
+<div nxLayout="grid">
+    <div nxRow>
+        <div nxCol="2"></div>
+        <div nxCol="8">
+
+<h2 nxHeadline="subsection-medium" class="nx-font-weight-light">Generate Container SAS</h2>
+
+<nx-formfield nxLabel="Account Key">
+  <input required nxInput #testInput type="password" [(ngModel)]="accountKey"/>
+  <nx-password-toggle [control]="testInput" ariaLabel="Your custom show password label" nxFormfieldSuffix></nx-password-toggle>
+  <nx-error nxFormfieldError>
+    Account key missing
+  </nx-error>
+</nx-formfield>
+
+<nx-formfield nxLabel="Container">
+      <input nxInput>
+</nx-formfield>
+
+      <nx-formfield nxLabel="SAS Token" appearance="outline" nxFloatLabel="always">
+        <input nxInput readonly [formControl]="sasToken">
+      </nx-formfield>
+
+      </div>
+
+      <div nxCol="2"></div>
+
+    </div>
+</div>
