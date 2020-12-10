@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/samdobson/azure-storage-sas-token-generator/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/samdobson/azure-storage-sas-token-generator/actions)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#NG_CLI_ANALYTICS=ci/https://github.com/samdobson/azure-storage-sas-token-generator)
 
 # Azure SAS Storage Token Generator
