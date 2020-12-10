@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/samdobson/azure-storage-sas-token-generator)
+
 # Azure SAS Storage Token Generator
 
 https://samdobson.github.io/azure-storage-sas-token-generator
