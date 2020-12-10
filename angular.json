@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "sas-generator"
+  "defaultProject": "sas-generator",
+  "cli": {
+    "analytics": false
+  }
 }
