@@ -8,21 +8,17 @@ import { NxExpertModule } from '@aposin/ng-aquila/config';
 import { NxInputModule } from '@aposin/ng-aquila/input';
 import { NxGridModule } from '@aposin/ng-aquila/grid';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    FormComponent
-  ],
+  declarations: [AppComponent, FormComponent],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     NxExpertModule,
     NxInputModule,
-    NxGridModule
+    NxGridModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
